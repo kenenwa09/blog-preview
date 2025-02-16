@@ -7,9 +7,16 @@ body {
   font-family: roboto, Arial;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .container {
-    width: 295px;
+    width: 180px;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto, Arial;
   }
 }
 
